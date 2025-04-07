@@ -1,17 +1,21 @@
 {
     "locale": "zh_CN",
-    "class": "language_zh",
     "navbar": {
-        "title": "my_site",
+        "title": "LILYGO",
         "logo": {
-            "alt": "my_site logo",
+            "alt": "teedoc logo",
             "src": "/static/image/logo.png"
         },
         "home_url": "/",
         "items": [
             {
                 "url": "/get_started/zh/",
-                "label": "安装使用",
+                "label": "产品",
+                "position": "left"
+            },
+            {
+                "url": "/develop/zh/",
+                "label": "开发",
                 "position": "left"
             },
             {
@@ -20,14 +24,20 @@
                 "position": "left"
             },
             {
-                "url": "https://github.com/neutree/teedoc",
-                "label": "github",
-                "target": "_blank",
-                "position": "right"
+                "label": "<img src='/static/image/youtube.svg' style='height: 1.5em;vertical-align: middle;'>",
+                "position": "right",
+                "url": "https://www.youtube.com/@LILYGO",
+                "target": "_blank"
+            },
+            {
+                "label": "<img src='/static/image/github.svg' style='height: 1.5em;vertical-align: middle;'>",
+                "position": "right",
+                "url": "https://github.com/Xinyuan-LilyGO",
+                "target": "_blank"
             },
             {
                 "id": "language",
-                "label": "Language: ",
+                "label": "<img src='/static/image/language.svg' style='height: 1.5em;vertical-align: middle;'>&nbsp;",
                 "position": "right",
                 "type": "language"
             }
@@ -39,8 +49,13 @@
                 "label": "链接",
                 "items": [
                     {
-                        "label": "使用 teedoc 构建",
+                        "label": "网站使用 teedoc 生成",
                         "url": "https://teedoc.neucrack.com",
+                        "target": "_blank"
+                    },
+                    {
+                        "label": "Copyright © 2021 Neucrack",
+                        "url": "https://neucrack.com",
                         "target": "_blank"
                     },
                     {
@@ -72,26 +87,22 @@
         ],
         "bottom": [
             {
-                "label": "*ICP备********号",
+                "label": "渝ICP备19015320号",
                 "url": "https://beian.miit.gov.cn",
                 "target": "_blank"
             },
             {
-                "label": "*公网安备***********号",
-                "url": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=****************",
+                "label": "粤公网安备44030602004109号",
+                "url": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030602004109",
                 "target": "_blank"
             }
         ]
     },
     "plugins": {
-        "teedoc-plugin-search":{
+        "teedoc-plugin-ad-hint": {
             "config": {
-                "search_hint": "搜索",
-                "input_hint": "输入关键词，多关键词空格隔开",
-                "loading_hint": "正在加载，请稍候。。。",
-                "download_err_hint": "下载文件失败，请刷新重试或检查网络",
-                "other_docs_result_hint": "来自其它文档的结果",
-                "curr_doc_result_hint": "当前文档搜索结果"
+                "label": "☆",
+                "content": "这是一个支持国际化的消息示例</br>喜欢项目请<a target=\"_blank\" href=\"https://github.com/teedoc/teedoc\">点下 ☆ star </a>哦~🦀🦀"
             }
         }
     },
