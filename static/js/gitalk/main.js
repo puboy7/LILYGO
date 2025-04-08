@@ -7,7 +7,7 @@
     return;
   }
   // render
-  var config = {};
+  var config = {"proxy": "https://strong-caramel-969805.netlify.app/github_access_token"};
   var html = document.getElementsByTagName("html")[0];
   var id = html.id;
   if(id){
