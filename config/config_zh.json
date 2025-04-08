@@ -1,10 +1,9 @@
 {
     "locale": "zh_CN",
-    "url": "/LILYGO.github.io/",
     "navbar": {
         "title": "LILYGO",
         "logo": {
-            "alt": "teedoc logo",
+            "alt": "LILYGO logo",
             "src": "/static/image/logo.png"
         },
         "home_url": "/",
