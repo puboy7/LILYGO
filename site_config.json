@@ -87,10 +87,17 @@
         "teedoc-plugin-comments-gitalk": {
             "from": "pypi",
             "config": {
-                "type": "hint",
-                "label": "!!!",
-                "content": "",
-                "show_after_s": 432000
+                "contrainer": "comments-container",
+                "env": {
+                    "clientID": "Ov23liZnEYOHqerDfmYR",
+                    "clientSecret": "1d641e9f45f74a620a262091409b1d719b626755",
+                    "repo": "LILYGO.github.io",
+                    "owner": "puboy7",
+                    "admin": ["puboy7"],
+                    "main_color": "#4caf7d",
+                    "second_color": "#0a7d43",
+                    "adminAutoCreate": false
+                }
             }
         },
         "teedoc-plugin-theme-default":{
