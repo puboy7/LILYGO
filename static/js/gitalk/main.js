@@ -7,7 +7,7 @@
     return;
   }
   // render
-  var config = {"clientID": "Ov23liZnEYOHqerDfmYR", "clientSecret": "1d641e9f45f74a620a262091409b1d719b626755", "repo": "LILYGO.github.io", "owner": "puboy7", "admin": ["puboy7"], "adminAutoCreate": false};
+  var config = {"repo": "LILYGO.github.io", "owner": "puboy7", "admin": ["puboy7"], "adminAutoCreate": false};
   var html = document.getElementsByTagName("html")[0];
   var id = html.id;
   if(id){
