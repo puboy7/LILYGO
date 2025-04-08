@@ -1,5 +1,6 @@
 {
     "locale": "zh_CN",
+    "url": "/LILYGO.github.io/",
     "navbar": {
         "title": "LILYGO",
         "logo": {
@@ -24,13 +25,13 @@
                 "position": "left"
             },
             {
-                "label": "<img src='/static/image/youtube.svg' style='height: 1.5em;vertical-align: middle;'>",
+                "label": "<img src='/url/static/image/youtube.svg' style='height: 1.5em;vertical-align: middle;'>",
                 "position": "right",
                 "url": "https://www.youtube.com/@LILYGO",
                 "target": "_blank"
             },
             {
-                "label": "<img src='/static/image/github.svg' style='height: 1.5em;vertical-align: middle;'>",
+                "label": "<img src='/url/static/image/github.svg' style='height: 1.5em;vertical-align: middle;'>",
                 "position": "right",
                 "url": "https://github.com/Xinyuan-LilyGO",
                 "target": "_blank"
