@@ -89,8 +89,6 @@
             "config": {
                 "contrainer": "comments-container",
                 "env": {
-                    "clientID": "Ov23liZnEYOHqerDfmYR",
-                    "clientSecret": "1d641e9f45f74a620a262091409b1d719b626755",
                     "repo": "LILYGO.github.io",
                     "owner": "puboy7",
                     "admin": ["puboy7"],
