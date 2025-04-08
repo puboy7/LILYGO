@@ -87,15 +87,10 @@
         "teedoc-plugin-comments-gitalk": {
             "from": "pypi",
             "config": {
-                "contrainer": "comments-container",
-                "env": {
-                    "repo": "LILYGO.github.io",
-                    "owner": "puboy7",
-                    "admin": ["puboy7"],
-                    "main_color": "#4caf7d",
-                    "second_color": "#0a7d43",
-                    "adminAutoCreate": false
-                }
+                "type": "hint",
+                "label": "!!!",
+                "content": "",
+                "show_after_s": 432000
             }
         },
         "teedoc-plugin-theme-default":{
