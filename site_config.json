@@ -90,7 +90,10 @@
                 "type": "hint",
                 "label": "!!!",
                 "content": "",
-                "show_after_s": 432000
+                "show_after_s": 432000,
+                "env": {
+
+                }
             }
         },
         "teedoc-plugin-theme-default":{
