@@ -38,7 +38,7 @@
             },
             {
                 "id": "language",
-                "label": "<img src='/static/image/language.svg' style='height: 1.5em;vertical-align: middle;'>&nbsp;",
+                "label": "<img src='/LILYGO.github.io/static/image/language.svg' style='height: 1.5em;vertical-align: middle;'>&nbsp;",
                 "position": "right",
                 "type": "language"
             }
