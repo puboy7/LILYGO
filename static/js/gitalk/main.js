@@ -7,7 +7,7 @@
     return;
   }
   // render
-  var config = {"repo": "LILYGO.github.io", "owner": "puboy7", "admin": ["puboy7"], "adminAutoCreate": false};
+  var config = {};
   var html = document.getElementsByTagName("html")[0];
   var id = html.id;
   if(id){
